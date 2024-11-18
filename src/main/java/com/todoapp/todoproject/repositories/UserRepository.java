@@ -10,5 +10,4 @@ public interface UserRepository extends JpaRepository<User, Integer> {
     User findTopByUsername(String username);
     User findTopByPassword(String password);
 
-
 }
