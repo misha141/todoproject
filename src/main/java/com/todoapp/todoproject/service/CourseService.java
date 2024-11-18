@@ -13,7 +13,7 @@ public class CourseService {
     private CourseRepository courseRepository;
 
     //POST
-    private Course saveCourses(Course course){
+    public Course saveCourse(Course course){
         System.out.println(course.toString());
         return courseRepository.save(course);
     }
